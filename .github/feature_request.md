@@ -1,21 +1,10 @@
----
-name: Feature Request
-about: Suggest an idea for this project
-title: "[Feature] "
-labels: enhancement
-assignees: ''
-
----
-
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is.
-
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
-
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
-
-**Additional context**
-Add any other context or screenshots about the feature request here.
-
+您好，我叫鱼骨头。
+您的项目我我详细的了解了一下，把3d模型转换成spine能用绑定，简直是天才般的想法。
+您的uv拆解，跟空间定位都是完美的，我觉得问题出在骨骼上。
+您是把每个顶点都用一个骨骼去定位，可能并不需要这么多骨骼去解决，这在spine里面会很繁琐，您可以看看下面这个演示。
+我觉得用权重替换骨骼，是一个简洁的方案。
+通过权重的100到-100，去替换blender里面的Y轴深度。
+https://github.com/user-attachments/assets/ec99205c-d816-4861-b414-9bb5f5cc9179
+附上这个工程文件，希望能给您一些帮助
+[unit_geass_ma_seiten.zip](https://github.com/user-attachments/files/24015438/unit_geass_ma_seiten.zip)
+最后希望能得到您的回复
